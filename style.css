@@ -1,0 +1,22 @@
+
+/* Color fondo de pagina */
+body{background-color: black;}
+
+/* identificador especial */
+h1#identificador{
+    color: aqua;
+    background-color: blueviolet;
+}
+
+/* Posicionamiento redvelvet */
+img.redvelvet{
+    position: relative;
+    width: 50px;
+    height: 50px;
+    top: 40px;
+    left: 40 px;
+}
+
+p.estilo{
+    color: blueviolet;
+}
