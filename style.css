@@ -1,11 +1,13 @@
 
 /* Color fondo de pagina */
-body{background-color:white;}
+body{background-color: black;}
 
 /* identificador especial */
 h1#identificador{
-    color: aqua;
-    background-color: blueviolet;
+    color:black;
+    background-color: pink;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
 }
 
 /* Posicionamiento redvelvet */
@@ -13,14 +15,14 @@ img.redvelvet{
     position: relative;
     width: 100px;
     height: 100px;
-    top: 100px;
+    top: 30px;
     left: 100px;
 }
 
 h3.estilo{
     color: blueviolet;
     position: relative;
-    top: 200px;
+    top: 100px;
     left: 0px;
 }
 
@@ -30,13 +32,13 @@ img.carrotcake{
     position: relative;
     width: 100px;
     height: 100px;
-    top: 200px;
+    top: 100px;
     left: 300px;
 }
 h3.carrot{
     color: blueviolet;
     position: relative;
-    top:300px ;
+    top:170px ;
     left:200px ;
 }
 
@@ -44,14 +46,72 @@ h3.carrot{
 h3.oreo{
     color: blueviolet;
     position: relative;
-    top: 400px;
-    left: 350px;
+    top: 250px;
+    left: 400px;
 }
 
 img.oreo{
     position: relative;
-    top: 300px;
+    top: 150px;
     left: 500px;
     width: 100px;
     height: 100px;
+}
+/* identificador recetas */
+h1#recetas{
+    color:black;
+    background-color: pink;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+/* identificador descripcion */
+h1#descripcion{
+    color:black;
+    background-color:pink;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+/* Descripcion estilos */
+
+h3.tartas{
+    color: pink;
+    font-style: bold;
+    font-family: 'Times New Roman', Times, serif;
+}
+blockquote.descripcion{
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+}
+span.velvet{
+    color: red;
+    font-style: italic;
+}
+span.carrot{
+    color: salmon;
+    font-style: italic;
+}
+span.oreo{
+    color: cornsilk;
+    font-style: italic;
+}
+
+/* estilo red velvet */
+
+p.ing{
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: bold;
+    font-size: larger;
+}
+ul.lista{
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    list-style-type: circle;
+}
+pre.receta{
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
 }
