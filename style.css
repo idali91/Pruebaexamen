@@ -12,51 +12,61 @@ h1#identificador{
 
 /* Posicionamiento redvelvet */
 img.redvelvet{
-    position: relative;
     width: 100px;
-    height: 100px;
-    top: 30px;
-    left: 100px;
+    height: 100px;    
+}
+p.left{
+    text-align: left;
 }
 
 h3.estilo{
     color: blueviolet;
-    position: relative;
-    top: 100px;
-    left: 0px;
+    text-align: left;
+}
+div.left{
+    clear: both;
 }
 
 /* Posicionamiento carrotcake */
 
 img.carrotcake{
-    position: relative;
     width: 100px;
     height: 100px;
-    top: 100px;
-    left: 300px;
+    
+}
+p.center{
+    text-align: center;
 }
 h3.carrot{
     color: blueviolet;
-    position: relative;
-    top:170px ;
-    left:200px ;
+    text-align: center;
+}
+div.center{
+    clear: both;
 }
 
 /* Posicionamiento oreo */
 h3.oreo{
     color: blueviolet;
-    position: relative;
-    top: 250px;
-    left: 400px;
+    text-align: right;
 }
-
+p.right{
+    text-align: right;
+}
 img.oreo{
-    position: relative;
-    top: 150px;
-    left: 500px;
     width: 100px;
     height: 100px;
 }
+div.right{
+    clear: both;
+}
+
+/* index footer */
+p.pie{
+    background-color: pink;
+    display: block;
+}
+
 /* identificador recetas */
 h1#recetas{
     color:black;
@@ -80,6 +90,8 @@ h3.tartas{
     color: pink;
     font-style: bold;
     font-family: 'Times New Roman', Times, serif;
+    background-color: white;
+    display: inline;
 }
 blockquote.descripcion{
     color: white;
@@ -97,13 +109,12 @@ span.oreo{
     color: cornsilk;
     font-style: italic;
 }
-
-/* estilo red velvet */
+/* estilo tartas */
 
 p.ing{
-    color: white;
+    color:pink;
     font-family: 'Times New Roman', Times, serif;
-    font-style: bold;
+    font-style: bold and italic;
     font-size: larger;
 }
 ul.lista{
@@ -114,4 +125,23 @@ ul.lista{
 pre.receta{
     color: white;
     font-family: 'Times New Roman', Times, serif;
+}
+table.estilo{
+    border: pink 2 px solid;
+    color: white;
+}
+td{
+    border: thistle 2px solid;
+    text-align: center;
+    max-width: max-content;
+
+}
+div.dif{
+    color: thistle;
+    background-color: white;
+    display: inline;
+}
+h1.tartas{
+    color: thistle;
+    text-align: center;
 }
