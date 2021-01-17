@@ -12,8 +12,8 @@ h1#identificador{
 
 /* Posicionamiento redvelvet */
 img.redvelvet{
-    width: 100px;
-    height: 100px;    
+    width: 200px;
+    height: 200px;    
 }
 p.left{
     text-align: left;
@@ -30,8 +30,8 @@ div.left{
 /* Posicionamiento carrotcake */
 
 img.carrotcake{
-    width: 100px;
-    height: 100px;
+    width: 200px;
+    height: 200px;
     
 }
 p.center{
@@ -54,8 +54,8 @@ p.right{
     text-align: right;
 }
 img.oreo{
-    width: 100px;
-    height: 100px;
+    width: 200px;
+    height: 200px;
 }
 div.right{
     clear: both;
